@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "jsx": "react-native",
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": false,
+    "downlevelIteration": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "app.ts",
+      "libraries/*",
+      "components/*"
+    ],
+    "out": "docs"
+  }
+}
